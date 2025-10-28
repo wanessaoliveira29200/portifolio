@@ -28,13 +28,13 @@ body {
   color: var(--color-text-primary);
 }
 body.dark-mode {
-  --color-primary: #161414;
-  --color-secondary: #0d0d0e;
-  --color-accent: #65a7ac;
-  --color-background: hwb(266 3% 17% / 0.39);
-  --color-surface: #5038a527;
+  --color-primary: #000000;
+  --color-secondary: #0084ac05;
+  --color-accent: #27dfec;
+  --color-background: hwb(268 22% 31% / 0.555);
+  --color-surface: #fcffff;
   --color-text-primary: #ffffff;
-  --color-text-secondary: #070707;
+  --color-text-secondary: #000000;
   --color-border: #e4e4e4;
 }
 
@@ -731,4 +731,5 @@ html {
     width: 500px;
     height: 600px;
     border-radius: 50%;
+
 }
